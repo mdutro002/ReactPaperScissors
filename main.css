@@ -1,0 +1,39 @@
+body{
+  background-color: whitesmoke;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.userContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#scoreContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.displayContainer{
+  padding: 25px;
+  margin-top: 25px;
+  border: solid 1px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.playerDisplay img{
+  max-width: 75px;
+}
+
