@@ -71,7 +71,7 @@ class App extends React.Component{
           {(this.state.userChoice === null) ? <img></img> : <img src={'assets/' + this.state.userChoice + '.png'}/>}
         </div>
         <div className="playerDisplay">
-          {(this.state.compChoice === null) ? <p></p> : <p>User plays {this.state.compChoice}</p>}
+          {(this.state.compChoice === null) ? <p></p> : <p>Computer plays {this.state.compChoice}</p>}
           {(this.state.compChoice === null) ? <img></img> : <img src={'assets/' + this.state.compChoice + '.png'}/>}
         </div>
       </div>
